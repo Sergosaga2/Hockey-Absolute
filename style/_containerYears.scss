@@ -1,0 +1,107 @@
+.container-years-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, .2);
+}
+.container-years {
+    display: flex;
+    width: 1200px;
+    height: inherit;
+    padding-top: 10px;
+    overflow-x: scroll;
+}
+.container-years::-webkit-scrollbar-track {
+	height: 10px;
+	background-color: transparent;
+}
+.container-years::-webkit-scrollbar {
+	height: 10px;
+	background-color: transparent;
+}
+.container-years::-webkit-scrollbar-thumb {
+	height: 10px;
+	background-color: rgba(0, 0, 0, .2);
+}
+.container-years::-webkit-scrollbar-thumb:hover,
+.container-years::-webkit-scrollbar-thumb:active {
+	height: 10px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.block-year {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 10px;
+    width: 110px;
+    & span {
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        font-size: 20px;
+        color: aliceblue;
+    }
+    & img {
+        transition: .3s;
+    }
+}
+.flag-wrapper {
+    width: 50px;
+    height: 38px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, .2);
+}
+.hide-flag {
+    opacity: 0;
+    transition: .2s;
+}
+.container-toggle-countries {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    height: inherit;
+    padding: 26px 20px 10px 20px;
+    background: rgba(0, 0, 0, .2)
+}
+.block-countries-1,
+.block-countries-2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.block-countries-2 {
+    margin-top: 16px;
+}
+.btn-toggle-country {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 118px;
+    height: 40px;
+    background: #9281db;
+    cursor: pointer;
+}
+.flag-visible {
+    opacity: 1;
+}
+.block-img-country {
+    position: relative;
+    width: 50px;
+    height: 38px;
+    background-color: rgba(0, 0, 0, .2);
+    & img {
+        transition: .2s;
+        opacity: .5;
+    }
+}
+.toggle-img-active {
+    opacity: 1 !important;
+}
+.block-img-blockade {
+    position: absolute;
+    width: 100%;
+    height: 39px;
+    z-index: 5;
+}

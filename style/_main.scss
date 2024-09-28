@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'infinite-energyrestar';
+    src: url('../font/infinite-energy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg,#a8c0ff, #3f2b96) no-repeat;
+  background-size: cover;
+}
+* {
+  font-family: Arial;
+  box-sizing: border-box;
+  border: none;
+}
+.global {
+  width: 100%;
+  min-height: 100vh;
+}
+.bg-hockey {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: url(../img/bg-hockey.png) no-repeat fixed;
+  background-size: contain;
+  background-position: right;
+  opacity: .2;
+  z-index: -1;
+}
+.header {
+  font-size: 50px;
+  font-family: 'Arial';
+  font-weight: 700;
+  font-style: italic;
+}
+img {
+  width: 50px;
+}

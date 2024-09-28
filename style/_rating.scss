@@ -1,0 +1,55 @@
+.medal-gold,
+.medal-silver,
+.medal-bronze {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.medal-gold {
+    background-color: #ffd700;
+    border: 2px solid #ccad00;
+}
+.medal-silver {
+    background: #c0c0c0;
+    border: 2px solid #a6a6a6;
+}
+.medal-bronze {
+    background: #cd7f32;
+    border: 2px solid #a36527;
+}
+.medal-first,
+.medal-second-1,
+.medal-second-2,
+.medal-fird-1,
+.medal-fird-2,
+.medal-fird-3 {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #998200;
+}
+.medal-second-1 {
+    left: -4px;
+    background: #8c8c8c;
+}
+.medal-second-2 {
+    left: 4px;
+    background: #8c8c8c;
+}
+.medal-fird-1,
+.medal-fird-2,
+.medal-fird-3 {
+    background: #7a4c1d;
+}
+.medal-fird-1 {
+    left: -8px;
+}
+.medal-fird-3 {
+    left: 8px;
+}
